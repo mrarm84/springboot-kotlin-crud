@@ -6,6 +6,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients
 
 @SpringBootApplication
 @EnableFeignClients
+@org.springframework.cache.annotation.EnableCaching
 class DemoApplication
 
 fun main(args: Array<String>) {
